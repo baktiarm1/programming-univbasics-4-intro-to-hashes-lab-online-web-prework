@@ -21,7 +21,7 @@ describe "working with hashes" do
     describe "pioneer" do
       it "creates and returns a hash named pioneer whose key is a symbol :name and whose value is a string, 'Grace Hopper'" do
         expect(pioneer).to be_a(Hash)
-        expect(pioneer[:key]).to eq("Grace Hopper")
+        expect(pioneer[:]).to eq("Grace Hopper")
       end
     end
 
