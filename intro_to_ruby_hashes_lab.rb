@@ -9,13 +9,13 @@ end
 
 def pioneer(key, value)
   # return a hash with a key of :name and a corresponding value of 'Grace Hopper'
- hash = {key: 'value'}
+ hash = {name: value}
 
  return hash
  
 end
 
- pioneer(name, 'Grace Hopper')
+
 
 def id_generator
   # return a hash with a key :id assigned to positive integer
