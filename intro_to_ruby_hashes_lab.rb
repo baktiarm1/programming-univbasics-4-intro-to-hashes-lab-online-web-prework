@@ -7,15 +7,13 @@ def my_hash
   return hash = {name:'Bak'}
 end
 
-def pioneer(key=name, value='Grace Hopper')
+def pioneer( key = 'name', value='Grace Hopper')
   # return a hash with a key of :name and a corresponding value of 'Grace Hopper'
  hash = {key: value}
 
  return hash
  
 end
-
-
 
 def id_generator
   # return a hash with a key :id assigned to positive integer
