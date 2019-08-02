@@ -20,7 +20,7 @@ def id_generator
   return hash={id:1}
 end
 
-def my_hash_creator(name, value)
+def my_hash_creator(name = name, value= 'Bak')
   # return a hash that includes the key and value parameters passed into this method
  return hash ={ name: value }
 end
