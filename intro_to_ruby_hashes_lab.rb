@@ -20,9 +20,9 @@ def id_generator
   return hash={id:1}
 end
 
-def my_hash_creator(key, value)
+def my_hash_creator(name, value)
   # return a hash that includes the key and value parameters passed into this method
- return hash ={ key: value }
+ return hash ={ name: value }
 end
 
 def read_from_hash(hash, key)
