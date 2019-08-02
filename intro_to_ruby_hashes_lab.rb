@@ -12,8 +12,10 @@ def pioneer(key, value)
  hash = {key: 'value'}
 
  return hash
-  pioneer(name, 'Grace Hopper')
+ 
 end
+
+ pioneer(name, 'Grace Hopper')
 
 def id_generator
   # return a hash with a key :id assigned to positive integer
