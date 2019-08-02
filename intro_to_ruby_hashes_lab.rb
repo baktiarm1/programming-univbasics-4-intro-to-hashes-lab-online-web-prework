@@ -9,7 +9,7 @@ end
 
 def pioneer(key, value)
   # return a hash with a key of :name and a corresponding value of 'Grace Hopper'
- hash = {name: value}
+ hash = {name: 'Grace Hopper'}
 
  return hash
  
